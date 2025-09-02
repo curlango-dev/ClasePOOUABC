@@ -20,10 +20,16 @@ public class Baraja
         for (int i=1; i<=13; i++) {
             carta = new Carta('C',i); // Corazón
             cartas.add(carta);
+        }
+        for (int i=1; i<=13; i++) {
             carta = new Carta('D',i); // Diamante
             cartas.add(carta);
+        }
+        for (int i=1; i<=13; i++) {
             carta = new Carta('T',i); // Trebol
             cartas.add(carta);
+        }
+        for (int i=1; i<=13; i++) {
             carta = new Carta('P',i); // Pica
             cartas.add(carta);
         }
